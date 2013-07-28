@@ -1,0 +1,16 @@
+{
+  "name": "SnakewithusNode",
+  "version": "0.0.0",
+  "description": "A snake AI sample",
+  "main": "node app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "restify": "*"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
