@@ -7,12 +7,18 @@ var logic = require('./logic');
  *  client_id: "<ANOTHER_ID>"
  * }
  *
- * RETURN: { name: "<SOME_NAME>" }
+ * RETURN: {
+ *  name: "<SOME_NAME>"
+ *  head_img: "<SOME_URL>"
+ * }
  *
  */
 exports.register = function(req, res, next) {
   console.log('REGISTER: ', req.body);
-  var data = { name: 'My Name'};
+  var data = {
+    name: 'My Name',
+    head_img: 'http://www.dseffects.com/iphone/games/HungrySnake/m'
+  };
 
   res.json(data);
 };
