@@ -9,7 +9,7 @@ var logic = require('./logic');
  *
  * RETURN: {
  *  name: "<SOME_NAME>"
- *  head_img: "<SOME_URL>"
+ *  head_img_url: "<SOME_URL>"
  * }
  *
  */
@@ -17,7 +17,7 @@ exports.register = function(req, res, next) {
   console.log('REGISTER: ', req.body);
   var data = {
     name: 'My Name',
-    head_img: 'http://www.dseffects.com/iphone/games/HungrySnake/m'
+    head_img_url: 'http://www.dseffects.com/iphone/games/HungrySnake/m'
   };
 
   res.json(data);
